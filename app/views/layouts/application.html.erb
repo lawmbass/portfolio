@@ -7,13 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-    <%= render 'shared/navbar' %>
+  <div class="container">
+      <%= render 'shared/navbar' %>
     <div class="main-page-content <%= controller.controller_name %>">
       <%= yield %>
     </div>
     
     <%= render 'layouts/footer' %>
-    <% debug(params) if Rails.env.development? %>
+    <% debug(params) if Rails.env.development? %>  
+  </div>
 </body>
         
 </html>

@@ -4,3 +4,31 @@
     margin-top: 20px;
   }
 }
+
+.jumbotron {
+    /*background-image: url("http://i.imgur.com/mJ8BJ0s.png");
+    color:white;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    */
+}
+
+.imagewrapper {
+  width: 100%; 
+  
+}
+.imagewrapper img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+  
+}
+
+.img-circle {
+    border-radius: 25px;
+}
