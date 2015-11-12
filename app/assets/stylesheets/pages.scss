@@ -1,21 +1,23 @@
-.pages {
-  .about-image {
-    width: 100%;
-    margin-top: 20px;
-  }
+.jumbotron {
+ width: 100%;
+ margin-top: -25px;
+
 }
 
-.jumbotron {
-    /*background-image: url("http://i.imgur.com/mJ8BJ0s.png");
-    color:white;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 400px;
-    max-width: 100%;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    */
+.my-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 600px
+}
+
+.my-container h1 {
+  position: relative;
+  font-weight: bold;
+  color: #00e5e6 !important;
+  text-align: center;
+ 
+  z-index: 2;
 }
 
 .imagewrapper {
@@ -23,12 +25,43 @@
   
 }
 .imagewrapper img {
+  position: absolute;
+  left: 0;
+  top: 0;
   max-width: 100%;
   height: auto;
   border-radius: 25px;
-  
+
 }
 
-.img-circle {
-    border-radius: 25px;
+.about img {
+  width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
 }
+
+.pages {
+  .about-image {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.backgroundColor {
+    background: #f2f2f2;
+}
+
+.logoSize {
+  width: 32px;
+  height: 32px;
+}
+.connectWithMe {
+  color: white;
+}
+.contactMe b{
+  color: #00e5e6 !important;
+}
+ 
+
